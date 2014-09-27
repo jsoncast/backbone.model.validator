@@ -1,0 +1,24 @@
+{
+  "name": "backbone.model.validator",
+  "main": "backbone.model.validator.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/masayukinagamachi/backbone.model.validator",
+  "authors": [
+    "Masayuki Nagamachi <masayuki.nagamachi@gmail.com>"
+  ],
+  "description": "Validation module for Backbone.Model",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "backbone"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}

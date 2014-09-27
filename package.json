@@ -1,0 +1,30 @@
+{
+  "name": "backbone.model.validator",
+  "version": "0.1.0",
+  "description": "Validation module for Backbone.Model",
+  "main": "backbone.model.validator.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --reporter nyan test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/masayukinagamachi/backbone.model.validator.git"
+  },
+  "keywords": [
+    "backbone"
+  ],
+  "author": "Masayuki Nagamachi <masayuki.nagamachi@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/masayukinagamachi/backbone.model.validator/issues"
+  },
+  "homepage": "https://github.com/masayukinagamachi/backbone.model.validator",
+  "devDependencies": {
+    "backbone": "^1.1.2",
+    "coffee-script": "^1.8.0",
+    "mocha": "^1.21.4",
+    "should": "^4.0.4",
+    "sinon": "^1.10.3",
+    "underscore": "^1.7.0"
+  }
+}
