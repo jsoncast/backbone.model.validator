@@ -4,7 +4,10 @@
   "description": "Validation module for Backbone.Model",
   "main": "backbone.model.validator.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register test.coffee"
+    "test": "mocha --compilers coffee:coffee-script/register --reporter nyan test.coffee",
+    "travis": "istanbul cover _mocha --report lcovonly -- --compilers coffee:coffee-script/register --reporter spec test.coffee",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "clean": "rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -22,6 +25,8 @@
   "devDependencies": {
     "backbone": "^1.1.2",
     "coffee-script": "^1.8.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.2",
     "mocha": "^1.21.4",
     "should": "^4.0.4",
     "sinon": "^1.10.3",
