@@ -4,7 +4,7 @@
   "description": "Validation module for Backbone.Model",
   "main": "backbone.model.validator.js",
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register --reporter nyan test.coffee"
+    "test": "mocha --compilers coffee:coffee-script/register test.coffee"
   },
   "repository": {
     "type": "git",
