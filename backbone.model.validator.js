@@ -5,7 +5,7 @@
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
-    define(['underscore'], factory);
+    define(['underscore', 'backbone'], factory);
   } else if (typeof exports === 'object') {
     module.exports = factory(require('underscore'), require('backbone'));
   } else {
